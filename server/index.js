@@ -18,6 +18,15 @@ app.use(cookieParser());
 // use different routes
 app.use('/api', allRoutes);
 
+//error handler
+// eslint-disable-next-line
+app.use((err, req, res, next) => {
+    const status = err.status || 500;
+    const message = err.message || 'Internal Server Error';
+
+    return res.status(status).json({message, stack: err.stack})
+})
+
 //connect to mongodb atlas database
 const connectDB = async () => {
     try {
