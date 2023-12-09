@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://to-do-app-back.vercel.app',
+        target: 'http://localhost:8000',
       },
     },
   },
