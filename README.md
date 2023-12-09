@@ -40,7 +40,7 @@ Clone the repository using the following command: `git clone git@github.com:depe
 - Start the frontend server: `cd frontend && npm start`
 
 ### Open your browser:
-Navigate to http://localhost:5173 to access the application, or other port, depending on your available port, it should be shown on your terminal after running frontend server.
+Navigate to http://localhost:5173 to access the application, or other port. Depending on your available port, it should be shown on your terminal after running frontend server.
 
 ## Usage
 - Register for an account or login with an existing account.
