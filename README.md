@@ -1,5 +1,8 @@
 # To-DO Application
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 This is a MERN Stack (MongoDB, Express, React, Node.js) application that allows users to manage their to-do list.
 
 ## Features
