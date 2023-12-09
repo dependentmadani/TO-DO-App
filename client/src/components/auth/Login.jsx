@@ -21,6 +21,7 @@ function Login() {
       toast.success('Logged In successfully');
       navigate('/');
     } catch (err) {
+      toast.error('Email or password is incorrect');
       console.log(err);
     }
   };
